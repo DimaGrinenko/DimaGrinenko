@@ -11,34 +11,51 @@
 
 ## About me
 
-I'm **Dmitry Grinenko**, a fullstack developer based in Minsk, Belarus. I build web applications, React Native mobile apps and animated browser games with JavaScript and TypeScript.
+I'm **Dmitry Grinenko**, a **Fullstack Developer** based in Minsk, Belarus. I work across **web applications, React Native mobile apps and browser-based slot games**, with TypeScript connecting the frontend, application logic and backend.
 
-My commercial experience covers frontend and backend development, application maintenance, bug fixes and test data preparation. I have also worked on casino-related projects. My current game work focuses on personal slot prototypes, their interfaces, animation and game presentation.
+My commercial experience at **Baldmonkey LTD** covers client and server development, application maintenance, bug fixes and test data preparation. Alongside this experience, my portfolio includes mobile applications, NestJS APIs and independent game projects. I have also worked on casino-related projects.
 
-**Open to remote full-time, part-time and project work** in web development, mobile development and iGaming.
+In game development, I build the layer that brings the game to life: **reel behaviour, bonus sequences, character animation, responsive controls and round-state handling**. My current slot projects combine React and TypeScript with **PixiJS, Spine and GSAP**, depending on the rendering approach. I pay particular attention to how gameplay, animation and server events fit together.
+
+I also use **Python for slot mathematics and development tooling**: calibrating outcome weights, checking RTP and payout distributions, and automating release preparation and validation. In Alpha Rooster and Pirate Abyss, this complements the TypeScript game frontend and generation pipeline.
+
+Across web and mobile projects, I work with component-based interfaces, REST APIs, authentication, relational data and local persistence. My portfolio includes fitness tracking, field-task workflows and a rewards-platform prototype, with source code and implementation notes available below.
+
+**Open to remote junior and middle-level opportunities**, including full-time, part-time and project work in web development, mobile development and iGaming.
+
+[LinkedIn profile](https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%B3%D1%80%D0%B8%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE-95ba4b35b/)
 
 ## Game development
 
-Three distinct visual worlds, built as browser-based game projects. Screenshots below show the actual game interfaces. These are development showcases, not claims of platform approval or commercial launch.
+Three slot projects with distinct visual worlds and shared engineering concerns: responsive presentation, animation timing and a consistent game state. The screenshots show the actual interfaces. Source releases document each project's current capabilities and setup requirements.
+
+**What I work on in slot development**
+
+- **Game flow:** reel states, win presentation, Wild multipliers, free spins and bonus transitions, according to each game's mechanics.
+- **Animation systems:** Spine characters and symbols, idle/drop/win states, reactions and coordinated scene transitions.
+- **Server integration:** RGS response validation, result presentation, unfinished-round recovery and replay handling.
+- **Python mathematics and tooling:** outcome-weight calibration, RTP validation, payout-distribution checks and release packaging in the Alpha Rooster and Pirate Abyss pipelines.
+- **Responsive interfaces:** desktop and portrait layouts, touch controls, loading and welcome screens, sound settings and reduced-motion support.
+- **Verification:** unit tests for game logic and integration behaviour, TypeScript checks and production builds. The three published source snapshots pass **232 tests** in total.
 
 <table>
   <tr>
     <td width="33%" valign="top">
       <a href="https://github.com/DimaGrinenko/alpha-rooster"><img src="assets/alpha-rooster.jpg" alt="Alpha Rooster game interface in a golden barn" width="100%" /></a>
       <h3><a href="https://github.com/DimaGrinenko/alpha-rooster">Alpha Rooster</a></h3>
-      <p>A cartoon barn, animated characters, 20 paylines and four bonus features.</p>
+      <p>A 5 × 3 cartoon barn slot with 20 paylines, a Spine-animated rooster and four bonus presentations. Includes a local demo library and round recovery.</p>
       <p><code>React</code> <code>TypeScript</code> <code>Vite</code> <code>Spine</code></p>
     </td>
     <td width="33%" valign="top">
       <a href="https://github.com/DimaGrinenko/pirate-abyss"><img src="assets/pirate-abyss.jpg" alt="Pirate Abyss game interface with an underwater pirate world" width="100%" /></a>
       <h3><a href="https://github.com/DimaGrinenko/pirate-abyss">Pirate Abyss</a></h3>
-      <p>A pirate-themed game with animated presentation, character rigs and responsive controls.</p>
+      <p>A 6 × 5 pirate slot with expanding Wilds, free-spin features, an animated captain and Canvas/WebGL presentation. Includes responsive controls and an asset inspection gallery.</p>
       <p><code>React</code> <code>PixiJS</code> <code>Spine</code> <code>GSAP</code></p>
     </td>
     <td width="33%" valign="top">
       <a href="https://github.com/DimaGrinenko/ashen-pact"><img src="assets/ashen-pact.png" alt="Ashen Pact local demo with two raven characters" width="100%" /></a>
       <h3><a href="https://github.com/DimaGrinenko/ashen-pact">Ashen Pact</a></h3>
-      <p>A dark-fantasy game with two raven characters, Spine animation and a local demo engine.</p>
+      <p>A 5 × 4 dark-fantasy slot with two animated raven keepers, seal-wheel reveals and three ritual bonus tiers. Includes a local demo engine and replay handling.</p>
       <p><code>React</code> <code>TypeScript</code> <code>Vite</code> <code>Spine</code></p>
     </td>
   </tr>
@@ -78,12 +95,13 @@ Quest, wallet and marketplace screens currently use mock data. The backend inclu
 
 ## Technical toolkit
 
-- **Languages:** JavaScript, TypeScript, SQL.
+- **Languages:** JavaScript, TypeScript, Python, SQL.
 - **Frontend:** React, Vue.js, HTML, CSS.
 - **Mobile:** React Native, Expo, Zustand, AsyncStorage, SQLite.
 - **Backend:** Node.js, NestJS, Express, Prisma.
 - **Data:** PostgreSQL, Microsoft SQL Server, Redis.
 - **Game presentation:** PixiJS, Spine, GSAP.
+- **Game mathematics and tooling:** Python, NumPy, SciPy, outcome distributions and RTP validation.
 - **Workflow:** Git, Docker, Linux, CI/CD, Vite.
 
 ## Experience
