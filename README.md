@@ -95,6 +95,10 @@ Quest, wallet and marketplace screens currently use mock data. The backend inclu
 
 ## Technical toolkit
 
+<p align="center">
+  <img src="assets/tech-stack.gif" width="1200" alt="Animated technology icons: TypeScript, JavaScript, Python, React, Node.js and SQL" />
+</p>
+
 - **Languages:** JavaScript, TypeScript, Python, SQL.
 - **Frontend:** React, Vue.js, HTML, CSS.
 - **Mobile:** React Native, Expo, Zustand, AsyncStorage, SQLite.
