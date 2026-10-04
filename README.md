@@ -1,60 +1,100 @@
-# Hi there, I'm Dima Grinenko! 👋
+<p align="center">
+  <img src="assets/profile-banner.gif" width="1200" alt="Dmitry Grinenko · Fullstack development · Web, mobile and browser games" />
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=22C55E&width=435&lines=Backend+Developer;Node.js+Specialist;NestJS+Enthusiast;Database+Architect)](https://git.io/typing-svg)
-    
-## 🚀 About Me
-I'm Dima Grinenko. <br/>
-Backend developer from Belarus. <br/>
-I specialize in building robust, scalable server-side applications and designing efficient database architectures. With a passion for clean code and system optimization, I bring your backend logic to life with reliability and performance.
+<p align="center">
+  <a href="#game-development">Game development</a> &nbsp;·&nbsp;
+  <a href="#web--mobile">Web & mobile</a> &nbsp;·&nbsp;
+  <a href="#technical-toolkit">Technical toolkit</a> &nbsp;·&nbsp;
+  <a href="#experience">Experience</a>
+</p>
 
-## 📈 GitHub Activity
+## About me
 
-<!-- GitHub Streak Stats -->
-[![GitHub Streak](https://streak-stats.demolab.com?user=Netron-Frontend&layout=compact&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-![Dima's GitHub stats](https://github-readme-stats.vercel.app/api?username=Netron-Frontend&layout=compact&show_icons=true&theme=radical&hide_border=true&count_private=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Netron-Frontend&layout=compact&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+I'm **Dmitry Grinenko**, a fullstack developer based in Minsk, Belarus. I build web applications, React Native mobile apps and animated browser games with JavaScript and TypeScript.
 
-## My Stack
-### 💻 Programming Languages
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+My commercial experience covers frontend and backend development, application maintenance, bug fixes and test data preparation. I have also worked on casino-related projects. My current game work focuses on personal slot prototypes, their interfaces, animation and game presentation.
 
-### ⚙️ Backend Development
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://nestjs.com/)
-[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+**Open to remote full-time, part-time and project work** in web development, mobile development and iGaming.
 
-### 🗄️ Databases
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
+## Game development
 
-### 📦 Package Managers & Tools
-[![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
-[![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)](https://yarnpkg.com/)
-[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
+Three distinct visual worlds, built as browser-based game projects. Screenshots below show the actual game interfaces. These are development showcases, not claims of platform approval or commercial launch.
 
-### 🔧 Version Control
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://github.com/DimaGrinenko/alpha-rooster"><img src="assets/alpha-rooster.jpg" alt="Alpha Rooster game interface in a golden barn" width="100%" /></a>
+      <h3><a href="https://github.com/DimaGrinenko/alpha-rooster">Alpha Rooster</a></h3>
+      <p>A cartoon barn, animated characters, 20 paylines and four bonus features.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>Vite</code> <code>Spine</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/DimaGrinenko/pirate-abyss"><img src="assets/pirate-abyss.jpg" alt="Pirate Abyss game interface with an underwater pirate world" width="100%" /></a>
+      <h3><a href="https://github.com/DimaGrinenko/pirate-abyss">Pirate Abyss</a></h3>
+      <p>A pirate-themed game with animated presentation, character rigs and responsive controls.</p>
+      <p><code>React</code> <code>PixiJS</code> <code>Spine</code> <code>GSAP</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/DimaGrinenko/ashen-pact"><img src="assets/ashen-pact.png" alt="Ashen Pact local demo with two raven characters" width="100%" /></a>
+      <h3><a href="https://github.com/DimaGrinenko/ashen-pact">Ashen Pact</a></h3>
+      <p>A dark-fantasy game with two raven characters, Spine animation and a local demo engine.</p>
+      <p><code>React</code> <code>TypeScript</code> <code>Vite</code> <code>Spine</code></p>
+    </td>
+  </tr>
+</table>
 
-### 🎨 Additional Tools
-[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
-[![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=white)](https://www.adobe.com/products/photoshop.html)
+## Web & mobile
 
-### 📚 Learning & Exploring
-[![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)](https://graphql.org/)
-[![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
-[![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
+### [IRON MIND AI](https://github.com/DimaGrinenko/irond_mind_ai)
+**Fitness application with a mobile client and a NestJS API.**
 
-## 📫 Contact Me
+Workout and set logging, training programs, nutrition tracking and progress statistics. The mobile app includes local SQLite storage; the API includes authentication and trainer/admin roles.
 
+`React Native` `Expo` `TypeScript` `Zustand` `SQLite` `NestJS` `Prisma`
 
+### [Field Tasks](https://github.com/DimaGrinenko/react-native-test-task)
+**Task management for mobile workflows.**
 
-# I'm always in touch. See you! 👋
+Task creation and editing, search, sorting, attachments, history, maps and local notifications. Local persistence and a REST synchronization prototype support offline workflows.
 
-<!--
-Keywords: Dima Grinenko, Backend Developer, Node.js Developer, NestJS Developer, TypeScript Developer, Database Developer, Belarus Developer, Software Engineer, JavaScript, PostgreSQL, MongoDB, Docker, Git, GitHub, API Development, Server-Side Development
--->
+`React Native` `Expo` `TypeScript` `Zustand` `AsyncStorage` `json-server`
+
+### [BoostLink](https://github.com/DimaGrinenko/-BoostLink-App)
+**Rewards-platform prototype with a mobile UI and a separate backend API.**
+
+Quest, wallet and marketplace screens currently use mock data. The backend includes authentication, quest review, wallet operations, marketplace workflows and payment integration handlers.
+
+`React Native` `Expo` `NestJS` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Socket.IO`
+
+<details>
+<summary><strong>More web and backend projects</strong></summary>
+
+- [Aroma House](https://github.com/DimaGrinenko/shop-catalog): a responsive HTML/CSS coffee catalog and landing page.
+- [NestJS projects](https://github.com/DimaGrinenko/nestjs-projects): a book-catalog API using NestJS, TypeORM, PostgreSQL and Swagger.
+- [AI Assistant](https://github.com/DimaGrinenko/Ai-assistant-app): a mobile assistant prototype with chat sessions, tasks and a NestJS API.
+
+</details>
+
+## Technical toolkit
+
+- **Languages:** JavaScript, TypeScript, SQL.
+- **Frontend:** React, Vue.js, HTML, CSS.
+- **Mobile:** React Native, Expo, Zustand, AsyncStorage, SQLite.
+- **Backend:** Node.js, NestJS, Express, Prisma.
+- **Data:** PostgreSQL, Microsoft SQL Server, Redis.
+- **Game presentation:** PixiJS, Spine, GSAP.
+- **Workflow:** Git, Docker, Linux, CI/CD, Vite.
+
+## Experience
+
+**Fullstack Developer · Baldmonkey LTD**<br />
+February 2024 to December 2025
+
+Developed and maintained the client and server sides of a web application, fixed bugs and prepared test data.
+
+**Education:** Information Systems and Technologies, MITSO International University. Expected graduation: 2027.
+
+**Languages:** Belarusian (native), Russian (C2), English (B1).
+
+<p align="center"><sub>Web applications · Mobile products · Animated browser games</sub></p>
